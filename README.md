@@ -2,10 +2,10 @@
 
 Bu proje web programlama dersi için React kullanarak geliştirilmiş bir telefon satış e-ticaret sitesidir.
 
-## � Proje Ekibi
+##  Proje Ekibi
 
-- **[İsim 1]** - [Öğrenci No]
-- **[İsim 2]** - [Öğrenci No]
+- **[Muhammet Emin Anlar]** - [170423821]
+- **[Selin Yüceer]** - [170422841]
 
 ## 📋 Proje Hakkında
 
@@ -27,7 +27,7 @@ MarmaPhone, modern telefon modellerinin satıldığı kullanıcı dostu bir e-ti
 - **JavaScript ES6+** - Programlama dili
 - **Unsplash** - Ürün görselleri
 
-## � Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 1. Projeyi bilgisayarınıza indirin
 2. Terminal'de proje klasörüne gidin
@@ -73,21 +73,6 @@ src/
 - Tablet: 3 sütunlu grid
 - Mobil: 1-2 sütunlu grid
 
-## � Desteklenen Telefon Modelleri
-
-- iPhone 15 Pro
-- Samsung Galaxy S24
-- Xiaomi 14 Pro
-- Google Pixel 8
-- OnePlus 12
-- Huawei P60 Pro
-- iPhone 14
-- Samsung Galaxy A54
-- Xiaomi Redmi Note 13
-- Oppo Reno 11
-- Realme GT 5
-- Nothing Phone 2
-
 ## 🎨 Tasarım Özellikler
 
 - Gradient renkler ve modern görünüm
@@ -95,18 +80,3 @@ src/
 - Card-based tasarım
 - Modal sepet sistemi
 - Hover efektleri
-
-## 📝 Notlar
-
-Bu proje eğitim amaçlı geliştirilmiştir ve gerçek bir e-ticaret platformu değildir. Ürün görselleri Unsplash'dan alınmıştır.+ Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
