@@ -9,7 +9,7 @@ Bu proje web programlama dersi için React kullanarak geliştirilmiş bir telefo
 
 ## 📋 Proje Hakkında
 
-MarmaPhone, modern telefon modellerinin satıldığı kullanıcı dostu bir e-ticaret platformudur. Sitede iPhone, Samsung, Xiaomi, Google Pixel gibi popüler telefon markalarının en güncel modelleri bulunmaktadır.
+MarmaPhone, modern telefon modellerinin satıldığı kullanıcı dostu bir e-ticaret platformudur.
 
 ## ✨ Site Özellikleri
 
