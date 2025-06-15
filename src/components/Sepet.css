@@ -1,0 +1,121 @@
+.sepet-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.sepet-modal {
+  background: white;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.sepet-header {
+  background: linear-gradient(45deg, #007ACC, #1BA1E2);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kapat-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.sepet-icerik {
+  padding: 20px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.bos-sepet {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  padding: 40px 0;
+}
+
+.sepet-urun {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.sepet-urun img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.urun-bilgi {
+  flex: 1;
+}
+
+.urun-bilgi h4 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.urun-bilgi .fiyat {
+  color: #007ACC;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cikar-btn {
+  background: #ff4757;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sepet-toplam {
+  border-top: 2px solid #007ACC;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sepet-toplam h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.satin-al-btn {
+  background: linear-gradient(45deg, #007ACC, #1BA1E2);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.satin-al-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,122,204,0.3);
+}

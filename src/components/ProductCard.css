@@ -1,0 +1,73 @@
+.product-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.resim-container {
+  height: 200px;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+.resim-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .resim-container img {
+  transform: scale(1.05);
+}
+
+.urun-bilgi {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.urun-bilgi h3 {
+  color: #333;
+  margin: 0 0 10px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.fiyat {
+  color: #007ACC;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+}
+
+.sepet-btn {
+  background: linear-gradient(45deg, #007ACC, #1BA1E2);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.sepet-btn:hover {
+  background: linear-gradient(45deg, #005a99, #1580b3);
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0,122,204,0.3);
+}
